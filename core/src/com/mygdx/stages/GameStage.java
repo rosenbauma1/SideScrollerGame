@@ -119,7 +119,7 @@ public class GameStage extends Stage implements ContactListener{
 				createEnemy();
 			}
 			world.destroyBody(body);
-			new SideScroller().create();
+			
 		}
 	}
 	
